@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="sass/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- on the nav contact part -->
+    <div class="contack py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-md toptext">
+                    <div class="icon_and_text d-flex">
+                        <div class="icon mr-2">
+                            <span>
+                                <i class="fas fa-phone"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                + 1235 2355 98
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md toptext text-lg-right">
+                    <div class="icon_and_text d-flex">
+                        <div class="icon mr-2">
+                            <span>
+                                <i class="fas fa-paper-plane"></i>
+                            </span>
+                        </div>
+                        <div>
+                            <span>
+                                youremail@email.com
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-md-5 pr-4 toptext   text-lg-right">
+                    <span class="text">
+                        3-5 Business days delivery & Free Returns
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- deskopt menu -->
+    <nav id="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <a href="index.html" class="navbar-brand">
+                        Winkel
+                    </a>
+                </div>
+                <div class="col-md-7 offset-3">
+                    <ul class="d-flex  navbar">
+                        <li class="nav-item ">
+                            <a href="index.html" class="nav-link">home</a>
+                        </li>
+                        <li class="nav-item drop-li">
+                            <a href="" class="nav-link">shop <span><i class="fas fa-caret-down"></i> </span></a>
+                            <div class="drop-down ">
+                                <ul>
+                                    <li class="drop-item"><a href="shop.html">shop</a></li>
+                                    <li class="drop-item"><a href="single.html">single product</a></li>
+                                    <li class="drop-item"><a href="cart.html">cart</a></li>
+                                    <li class="drop-item"><a href="checkout.html">checkout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="nav-link active">about</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link">blog</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                        <li class="nav-item">
+                            <a href="cart.html" class="nav-link card-color"><span>
+                                    <i class="fas fa-shopping-cart"></i><span>[0]</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- tablet and mobile menu -->
+    <nav id="mobile">
+        <div class="container">
+            <div class="row">
+                <a href="" class="navbar-brand">Winkel</a>
+                <div class="menu-icon">
+                    <i class="fas fa-bars"></i>
+                    <span>Menu</span>
+                </div>
+                <div id="mobile-menu" class="d-none">
+                    <ul class="navbar-mobile ml-auto">
+                        <li class="nav-item ">
+                            <a href="index.html" class="nav-link">home</a>
+                        </li>
+                        <li class="nav-item drop-li">
+                            <a href="" class="nav-link">shop <span><i class="fas fa-caret-down"></i> </span></a>
+                            <div class="drop-down ">
+                                <ul>
+                                    <li class="drop-item"><a href="shop.html">shop</a></li>
+                                    <li class="drop-item"><a href="single.html">single product</a></li>
+                                    <li class="drop-item"><a href="cart.html">cart</a></li>
+                                    <li class="drop-item"><a href="checkout.html">checkout</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a href="about.html" class="active nav-link">about</a></li>
+                        <li class="nav-item"><a href="blog.html" class="nav-link">blog</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">contact</a></li>
+                        <li class="nav-item">
+                            <a href="cart.html" class="nav-link card-color"><span>
+                                    <i class="fas fa-shopping-cart"></i><span>[0]</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+    </nav>
+
+
+    <section id="my-cart">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="my-cart-body col-md-9">
+                        <p>
+                            <span class="mr-2">home about</span>
+                            <span>abuot use</span>
+                        </p>
+                        <h2>
+                            my cart
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>   
+
+    <section id="better">
+        <div class="container">
+            <div class="row">
+                <div class="video img-edit col-md-5 p-md-5 img-2 d-flex justify-content-center align-items-center">
+                    <a href="https://vimeo.com/45830194" target="_blank" class="animation-icon">
+                        <span>
+
+                            <i class="fas fa-play"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="col-md-7 py-5  better-text pb-md-5">
+                    <div class="better-head  mb-4 mt-md-5">
+                        <div class="ml-md-0">
+                            <h2>Better Way to Ship Your Products</h2>
+                        </div>
+                        <div class="pb-md-5">
+                            <p>But nothing the copy said could convince her and so it didn’t take long until a few
+                                insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged
+                                her into their agency, where they abused her for their.
+
+
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="row better-body ">
+                        <div class="col-lg-4 text-center d-flex align-self-stretch">
+                            <div>
+                                <div class=" mb-4">
+                                    <span class="better-icon"></span>
+                                </div>
+                                <div class="better-body-text">
+                                    <h3>Refund Policy</h3>
+                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an
+                                        almost unorthographic.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center d-flex align-self-stretch">
+                            <div>
+                                <div class=" mb-4">
+                                    <span class="better-icon"></span>
+                                </div>
+                                <div class="better-body-text">
+                                    <h3>Premium Packaging</h3>
+                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an
+                                        almost unorthographic.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center d-flex align-self-stretch">
+                            <div>
+                                <div class=" mb-4">
+                                    <span class="better-icon"></span>
+                                </div>
+                                <div class="better-body-text">
+                                    <h3>Superior Quality</h3>
+                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an
+                                        almost unorthographic.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <section id="statictika">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="s-text">
+                        <strong>10,000</strong>
+                        <span>HAPPY CUSTOMERS</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="s-text">
+                        <strong>1000</strong>
+                        <span>branches</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="s-text">
+                        <strong>1000</strong>
+                        <span>parnet</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="s-text">
+                        <strong>100</strong>
+                        <span>Awards</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="customer">
+        <div class="container">
+            <div class="row heading-customer justify-content-center mb-5 pb-3">
+                <div class="col-md-7 ">
+                    <h2 class="c-head">Our satisfied customer says</h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in</p>
+
+                </div>
+
+
+            </div>
+
+            <div class="row body-customer">
+                <div id class="owl-carousel my-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <div class="costumer-info">
+                                    <div class="costumer-img">
+                                        <span class="d-flex align-items-center justify-content-center">
+                                            <i class="fas fa-quote-left"></i>
+                                        </span>
+
+                                    </div>
+                                    <div class="costumer-text">
+                                        <p class="mb-5 pl-4 left-border">
+                                            Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.
+                                        </p>
+                                    </div>
+                                    <p class="name">Garreth Smith</p>
+                                    <span>Marketing Manager</span>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="costumer-info">
+                                    <div class="costumer-img">
+                                        <span class="d-flex align-items-center justify-content-center">
+                                            <i class="fas fa-quote-left"></i>
+                                        </span>
+
+                                    </div>
+                                    <div class="costumer-text">
+                                        <p class="mb-5 pl-4 left-border">
+                                            Far far away, behind the word mountains, far from the countries Vokalia and
+                                            Consonantia, there live the blind texts.
+                                        </p>
+                                    </div>
+                                    <p class="name">Garreth Smith</p>
+                                    <span>Marketing Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="subrice">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 subrice-head text-center py-5 ">
+                    <h2>Subcribe to our Newsletter</h2>
+                    <div class="row subrice-body d-flex justify-content-center mt-5">
+                        <div class="col-md-8">
+                            <form class="subrice-form">
+                                <div class="form-group d-flex">
+                                    <input type="text" placeholder="Enter email address"
+                                        class="form-control email-input" />
+                                    <input type="submit" value="Subscribe" class="submit-input" />
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+
+                </div>
+                <a href="#" id="page-top">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md social-media">
+                    <div class="footer-text mb-4">
+                        <h2>
+                            Winkel
+                        </h2>
+                        <p>
+                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.
+                        </p>
+                        <ul class="social-icon">
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+
+                            </li>
+                            <li>
+
+                                <a href="">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+
+                            </li>
+                        </ul>
+
+
+
+                    </div>
+                </div>
+                <div class="col-md footer-menu">
+                    <div>
+                        <h2>Menu</h2>
+                        <ul>
+                            <li>
+                                <a href="">Shop</a>
+                            </li>
+                            <li>
+                                <a href="">About</a>
+                            </li>
+                            <li>
+                                <a href="">Journal</a>
+                            </li>
+                            <li>
+                                <a href="">Contact Us</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-md-4 footer-help">
+                    <h2>help</h2>
+                    <div class="d-flex ">
+                        <ul class="mr-l-5 pr-l-3 mr-4">
+                            <li>
+                                <a href="">Shipping Information</a>
+                            </li>
+                            <li>
+                                <a href="">Returns & Exchange</a>
+                            </li>
+                            <li>
+                                <a href="">Terms & Conditions</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                        </ul>
+                        <ul>
+
+                            <li>
+                                <a href="">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="">Contact</a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+                </div>
+                <div class="col-md footer-adres">
+                    <h2>
+                        Have a Questions?
+                    </h2>
+                    <ul>
+                        <li class="d-flex">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <address>
+                                203 Fake St. Mountain View, San Francisco, California, USA
+                            </address>
+                        </li>
+                        <li class="d-flex">
+                            <a href="">
+                                <i class="fas fa-phone"></i>
+                                <span>+2 392 3929 210</span>
+
+                            </a>
+
+                        </li>
+                        <li class="d-flex">
+                            <a href="">
+                                <i class="fas fa-envelope"></i>
+                                <span> info@yourdomain.com</span>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+                </p>
+            </div>
+            <p>Copyright ©2019 All rights reserved | This template is made with </p>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <div id="loading">
+        <img src="img/load.gif" alt="">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+    <script src="OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
